@@ -10,8 +10,8 @@ Amplify.configure(aws_exports);
 
 
 function App(){
-  class App extends Component {
-    render() {
+  //class App extends Component {
+    //render() {
       return (
         <div className="App">
           <AmplifySignOut />
@@ -22,8 +22,8 @@ function App(){
           <p>これは、サンプルで作成したアプリです。</p>
         </div>
       );
-    }
-  }
+    //}
+  //}
 }
 
 export default withAuthenticator(App);
